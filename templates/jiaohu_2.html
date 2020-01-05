@@ -1,0 +1,30 @@
+
+							<h1>你的城市重视教育吗？</h1>
+                            <p>各省历年教育支出情况</p>
+				<section>
+                <div class="row gtr-uniform">
+                <div class="col-6">
+
+                                            <div class="card-header bg-transparent">
+                                                <form method="POST" name="form2" action="/jiaohu/1">
+                                                <select name="the_region_selected_1">
+                                                    {% for item in the_select_region_1 %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key" value='查询' type='SUBMIT'>
+                                            </form></div>
+                </div>
+                                            <div class="col-12" id="word_5">{{ word_5|safe }}</div>
+                </div>
+                <div class="table-wrapper">{{ table_2|safe }}
+                </div>
+                </section>
+
+
+
+
+
+
+

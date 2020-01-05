@@ -1,0 +1,24 @@
+
+							<h1>数据故事</h1>
+				<section>
+                <div class="row gtr-uniform">
+                <div class="col-6">
+									       <div class="card-header bg-transparent"><form method="POST" name="form1" action="/jiaohu/1">
+                                                <select name="the_region_selected">
+                                                    {% for item in the_select_region %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key"  value='查询' type='SUBMIT'>
+                                            </form>
+                                           </div>
+                </div>
+                                            <div class="col-xl-10 container" id="word_2"><div class="center-block">{{ word_2|safe }}</div></div>
+                </div>
+                <div class="table-wrapper">{{ table_1|safe }}
+                </div>
+									</section>
+
+
+

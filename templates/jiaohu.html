@@ -1,0 +1,47 @@
+
+							<h1>数据故事</h1>
+				<section>
+									<h2>Image</h2>
+									<h3>Fit</h3>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12 content"><span class="image fit"><div>{{ word_1|safe }}</div></span></div>
+                                        <div class="col-12"><div class="card">由图可以看出，世界生育率整体上是处于平缓下降趋势。德国、西班牙等西欧国家一直以来处于低生育率，变化趋势不大；尼泊尔一直处于高生育率状态；索马里出生率则变化明显。这反映了世界劳动人口的变化趋势。中国生育率开始慢慢下降，呈现稳定的趋势，除了政策的原因，会不会与受教育程度相关呢？</div></div>
+                                            <div class="card-header bg-transparent"><form method="POST" name="form1" action="/jiaohu/1#word_2">
+                                                <select name="the_region_selected">
+                                                    {% for item in the_select_region %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key"  value='查询' type='SUBMIT'>
+                                            </form></div>
+                                            <div class="col-xl-10 container" id="word_2"><div class="center-block">{{ word_2|safe }}</div></div>
+											<div class="col-12"><span class="image fit">1960年到1966年，处于全面建设社会主义时期，人民的生活有了一定的改善，导致生育率逐年上升；然而1966-1976年，我国处于艰难的文革阶段，文革不仅影响了我国的政治和经济，还间接影响了我国的生育情况，导致生育率直线下降。1976年后，生育情况有所上升，但到1984年，城乡经济体制改革，再加上1982年的计划生育的影响，之后的生育情况一直趋于下降平缓趋势。</span></div>
+											<div class="col-12" id="word_3">{{ word_3|safe }}</div>
+                                            <div class="col-12"><span class="image fit">由图可以看出，学龄儿童入学率和小学的升学率变化趋势在2009年至2018年期间变化不大，基本处于高就学率，初中的升学率总体情况较好，但高中的升学率在2009年到2011年是比较低的，到2011年有所改观，但是数据到2016年就截止，国家统计局并未记录后两三年的数据，但预计仍然在上升的状态。
+                                            </span></div>
+
+                                            <div class="col-12" id="word_4">{{ word_4|safe }}</div>
+                                            <div class="col-12"><span class="image fit">从历年各地区财政教育支出可得知，东部沿海地区相较于内陆地区来说，其投入的教育支出是比较大的，而这个各省的财政教育支出与其财政收入是有比较大的关联度的，而且两个图（即财政收入图与财政教育支出图），都是有一个从沿海到内陆递减的状态，这也反映出了我国目前可能会出现各省教育支出差距较大问题，教育支出差距较大可能会导致教育资源的不均衡的问题。
+                                            </span></div>
+                                            <div class="card-header bg-transparent">
+                                                <form method="POST" name="form2" action="/jiaohu/1">
+                                                <select name="the_region_selected_1">
+                                                    {% for item in the_select_region_1 %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key" value='查询' type='SUBMIT'>
+                                            </form></div>
+                                            <div class="col-12" id="word_5">{{ word_5|safe }}</div>
+                                            <div class="col-12"><span class="image fit">由各省教育经费的交互图可发现，我国各省的教育经费都是逐年上升，这说明我国越来越注重教育的投入与发展。但是也有一些省份的教育经费的投入是有增有减的，如天津、辽宁等。其中一部分的原因是因为当地的政策所侧重的发展不同，导致经费的投入有所区别。北京、广东等发达的地区，这些省份的教育经费投入是比较大的。
+                                            </span></div>
+                                            <div class="col-12" id="word_5">{{ word_6|safe }}</div>
+                                            <div class="col-12"><span class="image fit">
+                                            </span></div>从6岁及6岁以上男女受教育比例饼图中可以看出，从初中到大专，女生受教育的比例一直低于男生，从小学到大专这个差距在逐渐缩小，说明在教育经费增长，缩小地域差异的同时，男女受教育比例也是一个值得关心的维度，从受教育的情况来看，女生在高等教育的潜力并不低于男生，基本可以与男生达到一个持平的关系。结合中国生育率来看，女性不再是生育的工具，她也可以通过知识改变自己的命运，追求自己的理想，不只是生儿育女，更能实现经济自由。
+									</section>
+
+
+
